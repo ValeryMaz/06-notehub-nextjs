@@ -16,7 +16,6 @@ export default function NoteDetailsClient() {
     queryFn: () => fetchNoteById(id),
     refetchOnMount: false,
   });
-  //   console.log(note);
 
   if (isLoading) return <p>Please wait</p>;
   if (error || !note) return <p>Some error..</p>;
