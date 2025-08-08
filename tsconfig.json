@@ -27,7 +27,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "components/TanstackProvider"
+    "components/TanStackProvider"
   ],
   "exclude": ["node_modules"]
 }
